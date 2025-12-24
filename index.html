@@ -3,14 +3,14 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Non Stop Grind (NSG) | KGMAC Official</title>
+    <title>NSG RECORDS | KGMAC OFFICIAL</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
     <nav class="navbar">
         <div class="logo">
-            <img src="nsg-logo.png" alt="NSG Logo" style="height: 50px; width: auto;">
+            <img src="nsg-logo.png" alt="NSG Logo">
         </div>
         <div class="menu-toggle" id="mobile-menu">
             <span class="bar"></span>
@@ -21,51 +21,61 @@
             <li><a href="#home">HOME</a></li>
             <li><a href="#kgmac">KGMAC</a></li>
             <li><a href="#events">EVENTS</a></li>
-            <li><a href="#blog">NEWSLETTER</a></li>
+            <li><a href="#newsletter">JOIN THE GRIND</a></li>
         </ul>
     </nav>
 
     <section id="home" class="hero">
-        <h1>NON STOP GRIND</h1>
-        <p>THE LABEL. THE MOVEMENT. THE GRIND.</p>
+        <div class="glow-box">
+            <h1>NON STOP GRIND</h1>
+            <p>THE LABEL. THE MOVEMENT. THE GRIND.</p>
+        </div>
     </section>
 
     <section id="kgmac" class="artist-section">
-        <h2>FEATURED ARTIST: KGMAC</h2>
+        <h2 class="neon-title">FEATURED ARTIST</h2>
         <div class="artist-card">
-            <div class="artist-image-container">
-                <img src="kgmac.jpg" alt="KGMAC" style="width: 100%; max-width: 400px; border: 3px solid #39FF14; border-radius: 8px; margin-bottom: 20px;">
-            </div>
-            <p>KGMAC is defining the new era of NSG. Pure hustle, no shortcuts.</p>
+            <img src="kgmac.jpg" alt="KGMAC" class="artist-photo">
+            <h3>KGMAC</h3>
+            <p>Pure hustle, no shortcuts. Defining the new era of NSG.</p>
             
-            <div class="spotify-container" style="margin: 25px 0;">
-                <iframe data-testid="embed-iframe" style="border-radius:12px" src="https://open.spotify.com/embed/artist/5X9oKqP2L297F0D0S8yK7N?utm_source=generator&theme=0" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+            <div class="spotify-wrapper">
+                <iframe style="border-radius:12px" src="https://open.spotify.com/embed/artist/37M8L8oT0tXm7F3fN7S4bN?utm_source=generator&theme=0" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
             </div>
-
-            <button class="btn">FOLLOW ON SPOTIFY</button>
+            
+            <a href="https://open.spotify.com/artist/37M8L8oT0tXm7F3fN7S4bN" class="btn-main">FOLLOW ON SPOTIFY</a>
         </div>
     </section>
 
     <section id="events" class="events-section">
-        <h2 class="section-title">TOUR DATES</h2>
+        <h2 class="neon-title">TOUR DATES</h2>
         <div class="event-list">
             <div class="event-item">
-                <div class="event-date"><span class="day">31</span><span class="month">DEC</span></div>
-                <div class="event-details">
-                    <h3>NSG NEW YEARS TAKEOVER</h3>
+                <div class="event-date">31<span>DEC</span></div>
+                <div class="event-info">
+                    <h4>NSG NEW YEARS TAKEOVER</h4>
                     <p>LOS ANGELES, CA</p>
                 </div>
-                <a href="#" class="ticket-btn">TICKETS</a>
+                <a href="#" class="btn-ticket">TICKETS</a>
+            </div>
+            <div class="event-item">
+                <div class="event-date">15<span>JAN</span></div>
+                <div class="event-info">
+                    <h4>THE GRIND SESSIONS</h4>
+                    <p>ATLANTA, GA</p>
+                </div>
+                <a href="#" class="btn-ticket">RSVP</a>
             </div>
         </div>
     </section>
 
-    <section id="blog" class="blog-section">
-        <div class="subscribe-box">
-            <h3>JOIN THE GRIND</h3>
-            <form id="newsletter-form">
-                <input type="email" placeholder="Email Address" required>
-                <button type="submit" class="btn">SUBSCRIBE</button>
+    <section id="newsletter" class="newsletter-section">
+        <div class="news-box">
+            <h3>STAY IN THE GRIND</h3>
+            <p>Get exclusive drops and tour dates first.</p>
+            <form id="news-form">
+                <input type="email" placeholder="ENTER EMAIL" required>
+                <button type="submit" class="btn-main">SUBSCRIBE</button>
             </form>
         </div>
     </section>

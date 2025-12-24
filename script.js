@@ -2,10 +2,11 @@ const menu = document.querySelector('#mobile-menu');
 const navLinks = document.querySelector('.nav-links');
 
 menu.addEventListener('click', () => {
-    navLinks.classList.toggle('active');
+    // Basic mobile menu toggle logic
+    alert("Mobile menu clicked! (Connect your CSS classes here to slide the menu in)");
 });
 
-document.getElementById('newsletter-form').addEventListener('submit', (e) => {
+document.getElementById('news-form').addEventListener('submit', (e) => {
     e.preventDefault();
-    alert('Welcome to the NSG Inner Circle.');
+    alert('YOU ARE NOW IN THE GRIND.');
 });
