@@ -75,3 +75,21 @@ input {
     border: 1px solid var(--neon);
     color: var(--neon);
 }
+/* Make the hero text glow like your screenshot */
+h1 { 
+    font-size: 4rem; 
+    color: var(--neon);
+    text-shadow: 0 0 10px #39FF14, 0 0 20px #39FF14; 
+    text-transform: uppercase;
+    line-height: 1.1;
+}
+
+/* Ensure the navbar remains sleek with the logo */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 5%;
+    background: #000;
+    border-bottom: 2px solid var(--neon);
+}
