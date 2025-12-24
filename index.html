@@ -4,16 +4,15 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Non Stop Grind (NSG) | KGMAC Official</title>
-    <meta name="description" content="Official home of Non Stop Grind Records. Exclusive updates on KGMAC, music releases, and the NSG newsletter.">
+    <meta name="description" content="Official home of Non Stop Grind Records. Featuring KGMAC.">
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
     <nav class="navbar">
         <div class="logo">
-    <img src="nsg-logo.png" alt="NSG Logo" style="height: 50px; width: auto;">
-</div>
-
+            <img src="nsg-logo.png" alt="NSG Logo" style="height: 50px; width: auto;">
+        </div>
         <div class="menu-toggle" id="mobile-menu">
             <span class="bar"></span>
             <span class="bar"></span>
@@ -35,11 +34,15 @@
         <h2>FEATURED ARTIST: KGMAC</h2>
         <div class="artist-card">
             <div class="artist-image-container">
-    <img src="kgmac.jpg" alt="KGMAC" style="width: 100%; max-width: 400px; border: 3px solid #39FF14; border-radius: 8px;">
-</div>
-
+                <img src="kgmac.jpg" alt="KGMAC" style="width: 100%; max-width: 400px; border: 3px solid #39FF14; border-radius: 8px; margin-bottom: 20px;">
+            </div>
             <p>KGMAC is defining the new era of NSG. Pure hustle, no shortcuts.</p>
-            <button class="btn">LISTEN TO KGMAC</button>
+            
+            <div class="spotify-container" style="margin: 25px 0;">
+                <iframe style="border-radius:12px" src="https://open.spotify.com/embed/artist/YOUR_ARTIST_ID?utm_source=generator&theme=0" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+            </div>
+
+            <button class="btn">FOLLOW ON SPOTIFY</button>
         </div>
     </section>
 
@@ -59,9 +62,38 @@
             </form>
         </div>
     </section>
+<section id="events" class="events-section">
+    <h2 style="color: var(--neon); border-bottom: 2px solid var(--neon); display: inline-block; margin-bottom: 30px;">TOUR DATES & EVENTS</h2>
+    
+    <div class="event-list">
+        <div class="event-item">
+            <div class="event-date">
+                <span class="day">31</span>
+                <span class="month">DEC</span>
+            </div>
+            <div class="event-details">
+                <h3>NSG NEW YEARS TAKEOVER</h3>
+                <p>KGMAC LIVE - LOS ANGELES, CA</p>
+            </div>
+            <button class="btn-small">TICKETS</button>
+        </div>
+
+        <div class="event-item">
+            <div class="event-date">
+                <span class="day">15</span>
+                <span class="month">JAN</span>
+            </div>
+            <div class="event-details">
+                <h3>THE GRIND SESSIONS</h3>
+                <p>STUDIO VIBE - ATLANTA, GA</p>
+            </div>
+            <button class="btn-small">RSVP</button>
+        </div>
+    </div>
+</section>
 
     <footer>
-        <p>&copy; 2025 NON STOP GRIND RECORDS</p>
+        <p>© 2025 NON STOP GRIND RECORDS</p>
     </footer>
 
     <script src="script.js"></script>
